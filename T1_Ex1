@@ -1,17 +1,17 @@
  Semnal dreptunghiular cu rezolutie temporara 2ms
  n=25; 
  t=0:0.002:2;
- s=square(2*pi*t, 25);
+ s= (1-n/100)*square(t*2*pi, n) - n/100;
  plot(t,s),title('DREPTUNGHIULAR'), xlabel('t'), ylabel('s'), grid
  
  Semnal dreptunghiular cu rezolutie temporara 20m
  n=25;
  t=0:0.02:2;
- s=square(2*pi*t, 25);
+ s= (1-n/100)*square(t*2*pi, n) - n/100;
  plot(t,s),title('DREPTUNGHIULAR'), xlabel('t'), ylabel('s'), grid
  
  Semnal dreptunghiular cu rezolutie temporara 200ms
  n=25; 
  t=0:0.2:2;
- s=square(2*pi*t, 25);
+ s= (1-n/100)*square(t*2*pi, n) - n/100;
  plot(t,s),title('DREPTUNGHIULAR'), xlabel('t'), ylabel('s'), grid
